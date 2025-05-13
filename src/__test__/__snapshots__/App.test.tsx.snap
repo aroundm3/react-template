@@ -8,7 +8,131 @@ exports[`toUpperCase 1`] = `
     <div
       class="w-96 bg-neutral-800 p-4 rounded-lg"
     >
-      // Your component go here
+      <div
+        class="flex flex-col space-y-4"
+      >
+        <div
+          class="flex items-center space-x-2"
+        >
+          <span
+            class="text-xs leading-5 font-normal text-[#AAAAAA]"
+            style="width: 100px;"
+          >
+            Unit
+          </span>
+          <div
+            class="relative flex cursor-pointer rounded-lg p-0.5 bg-[#212121]"
+            style="width: 140px; height: 36px;"
+          >
+            <div
+              class="absolute bg-[#424242] transition-transform duration-300 rounded-md"
+              style="transform: translateX(0px); width: 67px; height: 32px;"
+            />
+            <div
+              class="flex items-center justify-center duration-300"
+              style="width: 68px; height: 32px; color: rgb(249, 249, 249);"
+            >
+              <span
+                class="z-20 text-sm font-medium"
+              >
+                %
+              </span>
+            </div>
+            <div
+              class="flex items-center justify-center duration-300"
+              style="width: 68px; height: 32px; color: rgb(170, 170, 170);"
+            >
+              <span
+                class="z-20 text-sm font-medium"
+              >
+                px
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex items-center space-x-2"
+        >
+          <span
+            class="text-xs leading-5 font-normal text-[#AAAAAA]"
+            style="width: 100px;"
+          >
+            Value
+          </span>
+          <div
+            class="flex justify-between rounded-lg"
+            style="width: 140px; height: 36px;"
+          >
+            <div
+              class="group relative w-full h-full"
+            >
+              <button
+                class="p-2 cursor-pointer w-full h-full rounded-l-lg aspect-square flex text-center justify-center bg-[#212121] duration-300 text-[#AAAAAAAA]"
+                disabled=""
+              >
+                <span
+                  class="text-xl leading-4 font-medium"
+                >
+                  -
+                </span>
+              </button>
+              <div
+                class="z-30 absolute left-1/2 bottom-8 ml-auto mr-auto min-w-max -translate-x-1/2 scale-0 transform rounded-lg px-3 py-2 transition-all duration-300 group-hover:scale-100"
+              >
+                <div
+                  class="flex max-w-xs flex-col items-center"
+                >
+                  <div
+                    class="rounded-lg bg-[#212121] text-center text-xs text-[#F9F9F9]"
+                    style="padding: 3px 8px 3px 8px;"
+                  >
+                    Value must greater than 0
+                  </div>
+                  <div
+                    class="clip-bottom h-2 w-4 bg-[#212121]"
+                  />
+                </div>
+              </div>
+            </div>
+            <input
+              class="p-2 text-xs bg-[#212121] focus:outline-none focus:ring-0 focus:bg-[#3B3B3B] text-center"
+              style="width: 68px;"
+              type="text"
+              value="0"
+            />
+            <div
+              class="group relative w-full h-full"
+            >
+              <button
+                class="p-2 cursor-pointer w-full h-full rounded-r-lg aspect-square flex text-center justify-center bg-[#212121] duration-300 text-[#F9F9F9] hover:bg-[#3B3B3B]"
+              >
+                <span
+                  class="text-xl leading-4 font-medium"
+                >
+                  +
+                </span>
+              </button>
+              <div
+                class="z-30 absolute left-1/2 bottom-8 ml-auto mr-auto min-w-max -translate-x-1/2 scale-0 transform rounded-lg px-3 py-2 transition-all duration-300 group-hover:scale-100"
+              >
+                <div
+                  class="flex max-w-xs flex-col items-center"
+                >
+                  <div
+                    class="rounded-lg bg-[#212121] text-center text-xs text-[#F9F9F9]"
+                    style="padding: 3px 8px 3px 8px;"
+                  >
+                    Value must smaller than 100
+                  </div>
+                  <div
+                    class="clip-bottom h-2 w-4 bg-[#212121]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
