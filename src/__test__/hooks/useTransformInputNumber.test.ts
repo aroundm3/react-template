@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { useTransformInputNumber } from "../../hooks/useTransformInputNumber";
 import { renderHook } from "@testing-library/react";
-import { InputEnum } from "../../enums/InputEnum";
+import { InputEnum } from "../../enums/number-input-enum";
 
 describe("useTransformInputNumber", () => {
   const { result } = renderHook(() => useTransformInputNumber());
